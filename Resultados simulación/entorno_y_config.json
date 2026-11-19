@@ -1,0 +1,24 @@
+{
+  "python": "3.13.18",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "scipy": "1.16.3",
+  "matplotlib": "3.10.0",
+  "hmmlearn": "no se usa: Forward y Viterbi están implementados con NumPy",
+  "sistema": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "config": {
+    "T": 100,
+    "R": 1000,
+    "SEMILLA_BASE": 10000,
+    "SEMILLAS_REPRO": [
+      10000,
+      20000,
+      30000,
+      40000,
+      50000
+    ],
+    "NIVEL_CONF": 0.95,
+    "DPI": 300,
+    "CARPETA": "resultados"
+  }
+}
